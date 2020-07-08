@@ -1,2 +1,3 @@
 ---
 # tasks file for docker-role
+- include_tasks: build-image.yml
