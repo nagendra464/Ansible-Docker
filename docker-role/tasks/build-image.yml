@@ -3,4 +3,4 @@
   docker_image:
     name: application
     path: /home/nag/workspace/sample-ansible-docker/
-    state: present
+    state: build
