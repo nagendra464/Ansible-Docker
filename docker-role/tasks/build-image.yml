@@ -2,5 +2,5 @@
 - name: Build Docker image from Dockerfile
   docker_image:
     name: application
-    path: /home/nag/workspace/sample-ansible-docker/
+    path: /root
     state: build
