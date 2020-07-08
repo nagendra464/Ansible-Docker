@@ -1,0 +1,6 @@
+---
+- name: crete the docker container using ansible
+  become: yes
+  hosts: docker
+  roles:
+  - {role: docker-role}
