@@ -1,0 +1,6 @@
+---
+- name: transfer the files
+  hosts: fileservers
+  become: yes
+  roles:
+  - {role: filetransfer}
