@@ -3,3 +3,9 @@
   copy: 
     src: files/file1.txt
     dest: /home/nag
+  when: "ansible_default_ipv4.address == '172.31.30.110'"  
+- name: copy files to servers  
+  copy: 
+    src: files/file2.txt
+    dest: /home/nag
+  when: "ansible_default_ipv4.address == '172.31.38.6'"  
