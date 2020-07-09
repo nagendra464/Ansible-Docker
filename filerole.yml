@@ -3,4 +3,4 @@
   hosts: fileservers
   become: yes
   roles:
-  - {role: filetransfer}
+  - {role: filetrasfer}
