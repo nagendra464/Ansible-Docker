@@ -9,5 +9,5 @@
 - include_tasks: reload_daemon.yml
 - include_tasks: tomcat_users.yml
 - include_tasks: web_management.yml
-- include_tasks: copy_war.yml
-#- include_tasks: war.yml
+#- include_tasks: copy_war.yml
+- include_tasks: war.yml
