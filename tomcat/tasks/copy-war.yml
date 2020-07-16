@@ -1,0 +1,7 @@
+
+- name: Copy the war file
+  copy:
+    src: /home/nag/workspace/sample-deploy-war/target/naglogin-1.0.war
+    dest: /opt/tomcat/webapps
+    remote_src: yes
+   
