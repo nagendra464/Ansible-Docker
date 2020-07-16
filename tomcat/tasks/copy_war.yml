@@ -1,0 +1,10 @@
+---
+- name: copy war file to tomcat
+  maven_artifact:
+    group_id: com.maha
+    artifact_id: savina-login
+    repository_url: 'http://3.128.189.3:8081/repository/savina-login/com/maha/savina-login/{{my}}/savina-login-{{my}}.war'
+    username: admin
+    password: admin123
+    force_basic_auth: yes
+    
