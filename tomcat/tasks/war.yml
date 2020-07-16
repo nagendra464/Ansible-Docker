@@ -2,7 +2,7 @@
 - name: deploy java application
   get_url:
     url: http://3.128.189.3:8081/repository/savina-login/com/maha/savina-login/{{my}}/savina-login-1.0.war
-    dest: /opt/tomcat/webapps/savina-login-1.0.war
+    dest: /opt/tomcat/webapps/*.war
     username: admin
     password: admin123
     force_basic_auth: yes
